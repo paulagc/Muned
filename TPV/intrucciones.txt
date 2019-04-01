@@ -1,0 +1,9 @@
+==============
+TPV MUNED
+
+INSTRUCCIONES
+==============
+
+Mover la carpeta del proyecto a la ubicación htdocs desde la cual se accede con un programa de servidor local tipo XAMP o MAMP.
+Acceder a la dirección de la carpeta local desde el navegador web.
+Importar la base de datos pdv.sql desde la consola o phpmyadmin.

@@ -1,0 +1,634 @@
+body {
+
+background-image: url(fondo.jpg);
+
+background-position: center center;
+
+background-repeat: no-repeat;
+
+background-attachment: fixed;
+
+background-size: cover;
+
+background-color: #66999;
+
+
+}
+
+.logo{
+   
+   width: 50%;
+   margin: auto;
+}
+
+#logo{
+    float:left;
+}
+
+.stock{
+    float:left;
+    width: 50%;
+    margin: auto;
+}
+
+.formblock{
+   width: 100%;
+   height: auto;
+   margin: auto;
+}
+
+#centrar {
+  position: absolute; /*Posicionamiento absoluto*/ 
+  top: 5%; /*Desde arriba, colocar al 50% de la pantalla*/ 
+  left: 5%; /*Desde la izquierda, colocar al 50% de la pantalla*/ 
+  text-align: left;
+  width: 95%; 
+  height: 95%; 
+  /*min-width: 1350px;*/
+
+
+}
+
+#menutop{
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+   right: 0px;
+   
+	clear: both;
+	width: 95%;
+   
+}
+
+.contenido{
+	position: relative;
+	z-index: 0;
+	top: 60px;
+   left: 0px;
+   right: 0px;
+   bottom: 0px;
+   margin-bottom: 60px;
+	overflow: scroll;
+	width: 95%;
+   padding: 5px;
+   background: #fff;
+   border-radius: 5px 5px 5px 5px;
+   -moz-border-radius: 5px 5px 5px 5px;
+   -webkit-border-radius: 5px 5px 5px 5px;
+   border: 0px solid #000000;
+    max-height: 650px;
+   /*min-width: 1360px;
+   max-width: 1400px;*/
+ 
+}
+
+#ventasFondo{
+    background: #e6e6e6;
+}
+
+
+.texto{
+   padding: 50px;
+}
+
+.listas{
+   padding-top: 50px;
+ 
+}
+
+.menumovil{
+    display:none;
+}
+
+.menutop ul {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+
+	}
+.menutop a {
+	display: block;
+	
+	text-decoration: none;
+
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7ea4bd 0 1px 0;
+   color: #03253b;
+   /*font-size: 18px;*/
+   font-size: calc(8px + .5vw);
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+}
+.menutop a:hover {
+	border: 1px solid #0a3c59;
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   color: #fff;
+}
+.menutop ul li ul {
+	display: none;
+}
+.menutop ul li a:hover + ul, .menutop ul li ul:hover {
+	display: block;
+}
+
+footer{
+	/*position: relative;*/
+	float: left;
+	margin-top: 10px;
+	/*top: 750px;*/
+  width: 95%;
+}
+
+
+footer p{
+   color: #fff;
+   float: left;
+   width: 50%;
+}
+
+footer a{
+   float: left;
+   width: 50%;
+}
+
+
+
+#lateral{
+	background: #e6e6e6;
+	width: 10%;
+	float: left;
+	/*height: 661px;*/
+	height: 100%;
+	
+}
+
+#mesas{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+   
+}
+
+nav{
+	clear: both;
+	
+
+}
+
+nav ul{
+	list-style: none;
+
+}
+
+nav ul li{
+	padding: 2px;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+}
+
+.ulmesa{
+    padding: 0px;
+    display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+
+.navmesa{
+    margin: 0px;
+}
+
+#ticket{
+	width: 40%;
+	float: left;
+	
+
+}
+
+#encabezado{
+	background: #696969;
+	width: 95%;
+	overflow: hidden;
+	margin: 0 auto;
+
+
+}
+
+#ticket #encabezado h5{
+	
+   color: #fff;
+   font-size: calc(8px + .5vw);
+
+}
+
+#encabezado #pago{
+   float: right;
+   margin-right: 10px;
+}
+
+#encabezado #items{
+   margin-left: 10px;
+}
+
+#ticket #descripcion{
+	width: 95%;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.table-sm td{
+    font-size: calc(8px + .5vw);
+}
+
+#tablatitulo{
+    font-size: calc(8px + .5vw);
+    width: 100%;
+    height: 50px;
+}
+
+#tablaticket{
+    min-height: 500px;
+}
+
+.filaTicket{
+  height: 45px;
+}
+
+#ticket #botones nav ul li{
+	float: left;
+	/*border: 2px outset #000000;*/
+	border-radius: 5px 5px 5px 5px;
+	margin: 0 5px 5px 0;
+
+}
+
+#botones{
+   /*position: absolute;
+   top: 95%;*/
+	/*width: 90%;*/
+    padding-left: 20%;
+  background: #e6e6e6;
+
+}
+
+#menu{
+	background: #e6e6e6;
+	float: left;
+	width: 50%;
+	clear: right;
+	/*height: 650px;
+  max-width: 700px;*/
+  
+
+}
+
+#lista{
+	width: 100%;
+	float: left;
+}
+
+#mas{
+	width: 20%;
+	float: left;
+}
+
+#titulo{
+	width: 100%;
+	clear: both;
+
+}
+
+#titulo h4{
+	float: left;
+   padding-left: 40px;
+   font-size: calc(8px + .5vw);
+
+}
+
+#titulo button{
+	float: left;
+}
+
+#li{
+	list-style: none;
+	float: left;
+}
+
+.categoria{
+	position: relative;
+    text-align: center;
+    color: white;
+   overflow:hidden;
+
+
+}
+
+#sinstock{
+   color: red;
+  
+}
+
+#alerta{
+   position: absolute;
+   top: 700px;
+}
+
+
+.nombrecat{
+	
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   background: rgba(0,0,0,.4);
+   color: #fff;
+   font-size: calc(8px + .5vw);
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+
+
+}
+
+.mas{
+    width: 120px;
+    height: 80px;
+}
+
+.boton {
+   border: 1px solid #0a3c59;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7ea4bd 0 1px 0;
+   color: #03253b;
+   /*font-size: 1.5vw;*/
+   font-size: calc(8px + .5vw);
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.boton:hover {
+   border: 1px solid #0a3c59;
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   color: #fff;
+   }
+.boton:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 1px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #fff;
+}
+
+.mesa{
+  width: 115px;
+}
+
+.catimg{
+   position: relative;
+   overflow:hidden;
+}
+
+.catimg img{
+   padding:0;
+   border:0;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+
+
+}
+.catimg img:hover {
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+
+   -webkit-transform:scale(1.3);
+   transform:scale(1.3);
+
+}
+
+.cambio{
+   
+   width: 70%;
+   background: #e6e6e6;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.cambio .total{
+   margin-top: 10px;
+   float: left;
+   width: 50%;
+}
+
+.cambio .euros{
+   float: right;
+   width: 50%;
+   text-align: right;
+   font-size: xx-large;
+}
+
+.cambio .entregado{
+   margin-top: 20px;
+   float: left;
+   width: 50%;
+  
+}
+
+.cambio .vuelta{
+   margin-top: 10px;
+   float: left;
+   width: 50%;
+   color: #008000;
+}
+.calculator {
+   margin-top: 10px;
+  float: left;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+ 
+}
+
+.calc-row {
+  text-align: center;
+}
+
+div.screenEntreg, div.screenDevol {
+   width: 50%;
+   float: left;
+   text-align: right;
+   font-size: xx-large;
+}
+
+div.screenDevol{
+   color: #008000;
+}
+
+.calc-row div {
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  border: 1px solid #555;
+  background-color: #eee;
+  padding: 10px 0;
+  margin: 2px 2px;
+  border-radius: 5px;
+  width: 80px;
+}
+
+.calc-row div.zero {
+  width: 250px;
+}
+
+.totales{
+   width: 20%;
+}
+
+.totales .titulo{
+   float: left;
+   width: 50%;
+   font-size: x-large;
+}
+
+.totales .euros{
+   float: right;
+   width: 50%;
+   text-align: right;
+   font-size: x-large;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .mesa{
+        width: 50px;
+        height: 30px;
+        padding: 0px;
+    }
+    .ulmesa{
+        padding:none;
+    }
+   .fondocat{
+       height:50px;
+       width:70px;
+       
+   }
+   .menutop{
+       display:none;
+   }
+   .menumovil{
+        display:block;
+        position: absolute;
+        z-index: 1;
+    	top: 0px;
+    	left: 0px;
+        right: 0px;
+       
+    	clear: both;
+    	width: 95%;
+       
+   }
+   .menumovil ul {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+
+	}
+   #lateral{
+       float:none;
+       height: 80px;
+   }
+   
+   #mesas{
+    position:absolute;
+    }
+    #ticket{
+    width: 100%;
+    float:none;
+    }
+    #menu{
+    width: 100%;
+    height: 100%;
+    float:none;
+    }
+    #tablaticket{
+    min-height: 50px;
+    }
+    .mas{
+    width: 70px;
+    height: 50px;
+    }
+    #lateral h4{
+        display:none;
+    }
+    
+    .stock{
+        float:none;
+        width: 100%;
+    }
+    
+    .logo{
+        margin-bottom:40px;
+    }
+    #centrar{
+        top: 0%;
+    }
+    
+    
+   
+    
+}
